@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/SimuRncLib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/TableLayout.jar" sourcepath="lib/TableLayout-src.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/_WORK/zte/Java/src/SCJP/SCJP/lib/TableLayout-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/org.jdesktop.beansbinding_1.2.1.v20100202_AM_1.jar"/>
+	<classpathentry kind="lib" path="lib/org.jdesktop.swingx-0.9.2.v20080307.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/datepicker-lib"/>
+	<classpathentry kind="lib" path="D:/_WORK/zte/Java/src/SCJP/SCJP/lib/com.agfa.hap.genericsearch.filter_1.1.0.v20130419_1029.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
