@@ -1,4 +1,4 @@
-/**              on branch
+/**              branch  -> master
  * <p>文件名称: Ch1_1初始化.java </p>
  * <p>创建日期：2011-12-7</p>
  * @version 1.0
