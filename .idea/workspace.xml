@@ -2,191 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c594a4bc-19b8-4d3b-b9b2-913a203473fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_1_初始化.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_1_初始化子类.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_1_构造器内多态方法.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_1_构造器内多态方法_子类.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_2_合法标识符.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_3_类修饰符.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_4_声明接口.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_5_声明类成员_声明变量.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_5_声明类成员_声明构造函数.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_5_声明类成员_声明枚举.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_5_声明类成员_访问修饰符.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_5_声明类成员_非访问修饰符.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration/Item39_保护性拷贝.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch01_declaration_subclass/Ch1_5_OutPakSubClass_引用.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_3_多态.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_4_重写_子类.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_4_重写_父类.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_4_重载.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_5_强制转换.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_6_实现接口.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_8_构造方法.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_9_实现equals.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_2_变量作用域.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_2_字面值.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_2_局部变量.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_2_赋值运算符.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_3_向方法传递变量.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_4_对象初始化顺序.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_4_数组的声明构建初始化.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_5_装箱.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_6_重载.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch03_assignment/Ch3_7_垃圾收集.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ch04_operator/Ch4_1_运算符.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/Bird.class" afterPath="$PROJECT_DIR$/src/ch02_OO/Bird.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/CanFight.class" afterPath="$PROJECT_DIR$/src/ch02_OO/CanFight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/CanFly.class" afterPath="$PROJECT_DIR$/src/ch02_OO/CanFly.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/CanFly2.class" afterPath="$PROJECT_DIR$/src/ch02_OO/CanFly2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch10_development/Ch10_1_Javac_Java.class" afterPath="$PROJECT_DIR$/src/ch10_development/Ch10_1_Javac_Java.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch10_development/Ch10_2_Jar.class" afterPath="$PROJECT_DIR$/src/ch10_development/Ch10_2_Jar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_5_Assertion.class" afterPath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_5_Assertion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_2_Console.class" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_2_Console.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_Generic.class" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_Generic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_GenericMethod.class" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_GenericMethod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/MyUtility.class" afterPath="$PROJECT_DIR$/src/ch06_api/MyUtility.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/Parent.class" afterPath="$PROJECT_DIR$/src/ch02_OO/Parent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/SubBird.class" afterPath="$PROJECT_DIR$/src/ch02_OO/SubBird.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TableLayout-javadoc.jar" afterPath="$PROJECT_DIR$/lib/TableLayout-javadoc.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TableLayout-src.jar" afterPath="$PROJECT_DIR$/lib/TableLayout-src.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/TableLayout.jar" afterPath="$PROJECT_DIR$/lib/TableLayout.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cat.ser" afterPath="$PROJECT_DIR$/cat.ser" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/com.agfa.hap.genericsearch.filter_1.1.0.v20130419_1029.jar" afterPath="$PROJECT_DIR$/lib/com.agfa.hap.genericsearch.filter_1.1.0.v20130419_1029.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/org.jdesktop.beansbinding_1.2.1.v20100202_AM_1.jar" afterPath="$PROJECT_DIR$/lib/org.jdesktop.beansbinding_1.2.1.v20100202_AM_1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/org.jdesktop.swingx-0.9.2.v20080307.jar" afterPath="$PROJECT_DIR$/lib/org.jdesktop.swingx-0.9.2.v20080307.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/AbstractBlackHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/AbstractBlackHuman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no02/factory/AbstractHumanFactory.java" afterPath="$PROJECT_DIR$/src/pattern/no02/factory/AbstractHumanFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/AbstractHumanFactory.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/AbstractHumanFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no04/templatemethod/AbstractModel.java" afterPath="$PROJECT_DIR$/src/pattern/no04/templatemethod/AbstractModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/AbstractWhiteHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/AbstractWhiteHuman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/think/in/java/initial/Array.java" afterPath="$PROJECT_DIR$/src/think/in/java/initial/Array.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no02/factory/BlackHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no02/factory/BlackHuman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/think/in/java/initial/Book.java" afterPath="$PROJECT_DIR$/src/think/in/java/initial/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Callbacks.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Callbacks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch09_Executor.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch09_Executor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch10_development/Ch10_1_Javac_Java.java" afterPath="$PROJECT_DIR$/src/ch10_development/Ch10_1_Javac_Java.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch10_development/Ch10_2_Jar.java" afterPath="$PROJECT_DIR$/src/ch10_development/Ch10_2_Jar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch11_exception/Ch11_1_NewException.java" afterPath="$PROJECT_DIR$/src/ch11_exception/Ch11_1_NewException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch11_exception/Ch11_2_ExceptionChain.java" afterPath="$PROJECT_DIR$/src/ch11_exception/Ch11_2_ExceptionChain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch11_exception/Ch11_3_RuntimeException.java" afterPath="$PROJECT_DIR$/src/ch11_exception/Ch11_3_RuntimeException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch11_exception/Ch11_4_Inherit.java" afterPath="$PROJECT_DIR$/src/ch11_exception/Ch11_4_Inherit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch12_class/Ch12_1_ClassTest.java" afterPath="$PROJECT_DIR$/src/ch12_class/Ch12_1_ClassTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch12_class/Ch12_2_ClassCast.java" afterPath="$PROJECT_DIR$/src/ch12_class/Ch12_2_ClassCast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch01_declaration_subclass/Ch1_5_OutPakSubClass.java" afterPath="$PROJECT_DIR$/src/ch01_declaration_subclass/Ch1_5_OutPakSubClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_5_SubClass2.java" afterPath="$PROJECT_DIR$/src/ch01_declaration/Ch1_5_SubClass2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_8_Excercise.java" afterPath="$PROJECT_DIR$/src/ch01_declaration/Ch1_8_Excercise.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/interface0/Ch2_1_AbstracClassTest.java" afterPath="$PROJECT_DIR$/src/ch02_OO/interface0/Ch2_1_AbstracClassTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/interface0/Ch2_1_AbstracClassTest2.java" afterPath="$PROJECT_DIR$/src/ch02_OO/interface0/Ch2_1_AbstracClassTest2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/Ch2_2_Interface.java" afterPath="$PROJECT_DIR$/src/ch02_OO/Ch2_2_Interface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/interface1/Ch2_2_InterfaceTest.java" afterPath="$PROJECT_DIR$/src/ch02_OO/interface1/Ch2_2_InterfaceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch02_OO/interface1/Ch2_3_Inherit.java" afterPath="$PROJECT_DIR$/src/ch02_OO/interface1/Ch2_3_Inherit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_1_IfSwitch.java" afterPath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_1_IfSwitch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_2_Iterator.java" afterPath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_2_Iterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_3_Exception.java" afterPath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_3_Exception.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_5_Assertion.java" afterPath="$PROJECT_DIR$/src/ch05_flowControl/Ch5_5_Assertion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_1_String.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_1_String.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_1_Token.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_1_Token.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_2_Console.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_2_Console.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_2_IO.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_2_IO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_3_Serialization.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_3_Serialization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_4_DateNum.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_4_DateNum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_5_Format.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_5_Format.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch06_api/Ch6_5_Regex.java" afterPath="$PROJECT_DIR$/src/ch06_api/Ch6_5_Regex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_0_Add.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_0_Add.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_0_Iter.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_0_Iter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_1_HashCode.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_1_HashCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_0List.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_0List.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Map.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Map.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Queue.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Queue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Set.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Set.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Stack.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_Stack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_TreeSet_TreeMap.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_2_TreeSet_TreeMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_Generic.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_Generic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_GenericPoly.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_4_GenericPoly.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_5_GenericMethod.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_5_GenericMethod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_6_GenericDeclaration.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_6_GenericDeclaration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_7_Ex.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_7_Ex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_8_SubLinkedHashMap.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_8_SubLinkedHashMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch07_collections/Ch7_8_WeakHashMap.java" afterPath="$PROJECT_DIR$/src/ch07_collections/Ch7_8_WeakHashMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_1_Normal_InnerClass.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_1_Normal_InnerClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_2_LocalMethod_InnerClass.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_2_LocalMethod_InnerClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_3_Anonymous_InnerClass.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_3_Anonymous_InnerClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_4_Static_NestedClass.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_4_Static_NestedClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_5_Static_NestedClass_Interface.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_5_Static_NestedClass_Interface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_6_Inherit.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_6_Inherit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_6_InheritInner.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_6_InheritInner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_7_Ex.java" afterPath="$PROJECT_DIR$/src/ch08_inner_class/Ch8_7_Ex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_1_ThreadDef.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_1_ThreadDef.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_2_ThreadState.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_2_ThreadState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_3_Synchronized.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_3_Synchronized.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_3_SynchronizedLock.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_3_SynchronizedLock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_4_ThreadInteractive.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_4_ThreadInteractive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_5_Exercise.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_5_Exercise.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_6_ThreadLocal.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_6_ThreadLocal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch09_thread/Ch9_7_Lock.java" afterPath="$PROJECT_DIR$/src/ch09_thread/Ch9_7_Lock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pkgB/Child.java" afterPath="$PROJECT_DIR$/src/pkgB/Child.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Client.java" afterPath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/proxy/Client.java" afterPath="$PROJECT_DIR$/src/pattern/proxy/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mvc/controller/Controller.java" afterPath="$PROJECT_DIR$/src/mvc/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/xml/CreateXML.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/xml/CreateXML.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Demo.java" afterPath="$PROJECT_DIR$/src/Demo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no01/sigleton/Emperor.java" afterPath="$PROJECT_DIR$/src/pattern/no01/sigleton/Emperor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/enumtest/EnumSwitch.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/enumtest/EnumSwitch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/FemaleBalckHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/FemaleBalckHuman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/FemaleFactory.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/FemaleFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/FemaleWhiteHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/FemaleWhiteHuman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/format/FormatDate.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/format/FormatDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/format/FormatDouble.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/format/FormatDouble.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/format/FormatHex.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/format/FormatHex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no02/factory/GamesTest.java" afterPath="$PROJECT_DIR$/src/pattern/no02/factory/GamesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/think/in/java/initial/Gc.java" afterPath="$PROJECT_DIR$/src/think/in/java/initial/Gc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/enumtest/Grade.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/enumtest/Grade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no02/factory/Human.java" afterPath="$PROJECT_DIR$/src/pattern/no02/factory/Human.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/Human.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/Human.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no02/factory/HumanFactory.java" afterPath="$PROJECT_DIR$/src/pattern/no02/factory/HumanFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Hummer1Model.java" afterPath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Hummer1Model.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Hummer2Model.java" afterPath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Hummer2Model.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/proxy/IPerson.java" afterPath="$PROJECT_DIR$/src/pattern/proxy/IPerson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/JListTest.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/JListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTabbedPaneTest.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTabbedPaneTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableColor.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableColor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableEditable.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableEditable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableScroll.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableScroll.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableView.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/JTableView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/xml/Java2Xml.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/xml/Java2Xml.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/layout/JdkGridBagLayout.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/layout/JdkGridBagLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/JlistImport.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/JlistImport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/MaleBalckHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/MaleBalckHuman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/MaleFactory.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/MaleFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/MaleWhiteHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/MaleWhiteHuman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no01/sigleton/Minister.java" afterPath="$PROJECT_DIR$/src/pattern/no01/sigleton/Minister.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mvc/view/MyPanel.java" afterPath="$PROJECT_DIR$/src/mvc/view/MyPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mvc/view/MyPanel.jfd" afterPath="$PROJECT_DIR$/src/mvc/view/MyPanel.jfd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/proxy/NoOwnerInvocationHandler.java" afterPath="$PROJECT_DIR$/src/pattern/proxy/NoOwnerInvocationHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no02/factory/NvWa.java" afterPath="$PROJECT_DIR$/src/pattern/no02/factory/NvWa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/NvWa.java" afterPath="$PROJECT_DIR$/src/pattern/no03/abstractfactory/NvWa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/proxy/OwnerInvocationHandler.java" afterPath="$PROJECT_DIR$/src/pattern/proxy/OwnerInvocationHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pkgA/Parent.java" afterPath="$PROJECT_DIR$/src/pkgA/Parent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PasswordExpirationLoginModule.java" afterPath="$PROJECT_DIR$/src/PasswordExpirationLoginModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/proxy/PersonBean.java" afterPath="$PROJECT_DIR$/src/pattern/proxy/PersonBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/enumtest/Student.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/enumtest/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch03_assignment/Test.java" afterPath="$PROJECT_DIR$/src/ch03_assignment/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Test.java" afterPath="$PROJECT_DIR$/src/pattern/no04/templatemethod/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test3.java" afterPath="$PROJECT_DIR$/src/Test3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/format/TestFormatter.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/format/TestFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/random/TestMathRandom.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/random/TestMathRandom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/swing/layout/TestPanel.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/swing/layout/TestPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/random/TestUtilRandom.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/random/TestUtilRandom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mvc/model/UserBean.java" afterPath="$PROJECT_DIR$/src/mvc/model/UserBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zte/scjp/vararg/VarargMethodOverLoad.java" afterPath="$PROJECT_DIR$/src/com/zte/scjp/vararg/VarargMethodOverLoad.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pattern/no02/factory/WhiteHuman.java" afterPath="$PROJECT_DIR$/src/pattern/no02/factory/WhiteHuman.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch01_declaration/Ch1_1_ππ‘Ï∆˜ƒ⁄∂‡Ã¨∑Ω∑®.java" afterPath="$PROJECT_DIR$/src/ch01_declaration/Ch1_1_ππ‘Ï∆˜ƒ⁄∂‡Ã¨∑Ω∑®.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SCJP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c594a4bc-19b8-4d3b-b9b2-913a203473fb" time="1407118100984" ignored="false" />
+    <file path="/Dummy.txt" changelist="c594a4bc-19b8-4d3b-b9b2-913a203473fb" time="1407119340121" ignored="false" />
+    <file path="/Ch1_1_ππ‘Ï∆˜ƒ⁄∂‡Ã¨∑Ω∑®.java" changelist="c594a4bc-19b8-4d3b-b9b2-913a203473fb" time="1407119379500" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +25,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -238,6 +61,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -250,8 +74,10 @@
       <file leaf-file-name="Ch1_1_ππ‘Ï∆˜ƒ⁄∂‡Ã¨∑Ω∑®.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch01_declaration/Ch1_1_ππ‘Ï∆˜ƒ⁄∂‡Ã¨∑Ω∑®.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="15" selection-start="699" selection-end="699" vertical-scroll-proportion="0.48598132">
-              <folding />
+            <state line="23" column="10" selection-start="460" selection-end="460" vertical-scroll-proportion="0.20560747">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -311,6 +137,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,24 +213,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -418,6 +241,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -446,19 +282,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -516,30 +339,30 @@
     <frame x="0" y="22" width="1440" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -605,8 +428,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ch01_declaration/Ch1_1_ππ‘Ï∆˜ƒ⁄∂‡Ã¨∑Ω∑®.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="15" selection-start="699" selection-end="699" vertical-scroll-proportion="0.48598132">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch01_declaration/Ch1_1_ππ‘Ï∆˜ƒ⁄∂‡Ã¨∑Ω∑®.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="10" selection-start="460" selection-end="460" vertical-scroll-proportion="0.20560747">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

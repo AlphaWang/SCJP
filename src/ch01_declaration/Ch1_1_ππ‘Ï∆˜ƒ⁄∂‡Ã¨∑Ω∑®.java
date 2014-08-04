@@ -21,6 +21,7 @@
 package ch01_declaration;
 
 public class Ch1_1_构造器内多态方法 {
+    //test
 	String name;
 	void draw(){
 		System.out.println("父类draw()");
