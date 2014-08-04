@@ -20,16 +20,12 @@
  */
 package ch07_collections;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.JMenu;
-
 public class Ch7_6_GenericDeclaration {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		List<Car> carList = new ArrayList<Car>();
 		Car car1 = new Car();
 		Car car2 = new Car();
@@ -37,18 +33,11 @@ public class Ch7_6_GenericDeclaration {
 		carList.add(car2);
 		
 		Rental<Car> rental = new Rental<Car>(carList, 10);
-		
 		Car rentCar = rental.getRental();
 		
 		//doStuff
-		
 		rental.returnRental(rentCar);
-		
-		/*String path = "conf"+File.separator+"conf\\app\\";
-		System.out.println(path);*/
-
 	}
-
 }
 /**
  * 1. 创建自己的泛型类  ————声明一个类，在实例化时 要求传递泛型
@@ -70,8 +59,7 @@ public class Ch7_6_GenericDeclaration {
 //class Err<? extends Number>{  }
 
 
-class Rental<T>
-{
+class Rental<T> {
 	private List<T> rentalPool;
 	private int maxnum;
 	
@@ -89,22 +77,19 @@ class Rental<T>
 		rentalPool.add(returnedThing);
 	}
 }
-class Car{		
+class Car{
 }
-//<E extends Animal>,为参数类型 指定范围  
-class MyList<E extends Number, T>
-{
+//<E extends Animal>,为参数类型 指定范围
+class MyList<E extends Number, T> {
 	E newElemE;
 	T newElemT; //合法，但 泛型一般只用于集合
 	E[] allElems;
 	void add(E elem){
 		
 	}
-	
 }
 
-class CreateList
-{
+class CreateList {
 	/**
 	 * 2. 创建泛型方法 ————在非泛型类中 要使用泛型方法时
 	 * 
@@ -117,7 +102,7 @@ class CreateList
 		list.add(t);
 		return list;
 	}
-	//可用<E extends Animal>,为参数类型 指定范围  
+	//可用<E extends Animal>,为参数类型 指定范围
 	public <T extends Number> void makeList2(T t){
 		
 	}
@@ -125,7 +110,7 @@ class CreateList
 	public <T,E> void makeList3(T t,E e){
 		
 	}
-	/*
+	/**
 	 * 也可以在定义构造方法时使用 泛型。
 	 * ————因为没有返回类型，看起来很怪，但是合法的！
 	 */

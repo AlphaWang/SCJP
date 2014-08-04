@@ -17,8 +17,6 @@ package mvc.controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 import java.text.ParseException;
 import java.util.Date;
 
@@ -68,22 +66,23 @@ public class Controller {
 				Object v = pnl.getFormatTextField().getValue();
 				System.out.println("format value:" + v);
 				
+				System.out.println(pnl.getField().getText());
 			}
 		});
 		bean.setDate(new Date());
 		pnl.setModel(bean);
 		
-		bean.addPropertyChangeListener("name", new PropertyChangeListener(){
-
-			@Override
-			public void propertyChange(PropertyChangeEvent evt) {
-				if(evt.getNewValue() != null && !evt.getNewValue().equals(evt.getOldValue())){
-					pnl.getField().setText(evt.getNewValue().toString());
-					System.out.println("PropertyChangeListener: " + evt.getNewValue());
-				}
-			}
-			
-		});
+//		bean.addPropertyChangeListener("name", new PropertyChangeListener(){
+//
+//			@Override
+//			public void propertyChange(PropertyChangeEvent evt) {
+//				if(evt.getNewValue() != null && !evt.getNewValue().equals(evt.getOldValue())){
+//					pnl.getField().setText(evt.getNewValue().toString());
+//					System.out.println("PropertyChangeListener: " + evt.getNewValue());
+//				}
+//			}
+//			
+//		});
 		
 		frm.add(pnl);
 		

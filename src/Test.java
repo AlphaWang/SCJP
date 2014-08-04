@@ -44,7 +44,7 @@ public class Test {
 				int stop = Integer.parseInt(ind[1]);
 				if(start > stop){
 					return value;
-				}				
+				}
 				
 				if(length < (stop + 1)){
 					for(int i = length; i < stop + 1; i ++){
@@ -52,17 +52,17 @@ public class Test {
 					}
 				}
 				
-				String tmp = binValue.substring(binValue.length() - (stop+1), binValue.length() - start );	
+				String tmp = binValue.substring(binValue.length() - (stop+1), binValue.length() - start );
 				value = String.valueOf(Long.parseLong(tmp, 2));
 				
 			}else if (ind != null && ind.length == 1){
-				int bitnum = Integer.parseInt(ind[0]);				
+				int bitnum = Integer.parseInt(ind[0]);
 				if(binValue.length() >= (bitnum + 1) ){
 					char c = binValue.charAt(binValue.length()- (bitnum + 1));
 					value = String.valueOf(c);
-				}	
-			}			
-		}				
+				}
+			}
+		}
 		return value;
 	}
 	public static void main(String[] args){
@@ -108,7 +108,7 @@ public class Test {
 		System.out.println( big2.scale() );
 		//Œ¥…ËMathContext ±£∫	0.610000000000000042188474935755948536098003387451171875
 		//MathContext.DECIMAL32:0.6100000
-		System.out.println( big1.subtract(big2)); 
+		System.out.println( big1.subtract(big2));
 		
 		System.out.println(System.getProperty("sun.boot.class.path"));
 		System.out.println(System.getProperty("java.ext.dirs"));
@@ -142,5 +142,15 @@ public class Test {
 		String s1 = "\r";
 		String s2 = s1.trim();
 		System.out.println(s2);
+		
+		System.out.println(Map.class.getName());
+		System.out.println(Map.class.getSimpleName());
+		System.out.println(Map.class.getCanonicalName());
+		
+		 int ssize = 1;
+	        while (ssize < 16) {
+	            ssize <<= 1;
+	        }
+	        System.out.println(ssize);
 	}
 }

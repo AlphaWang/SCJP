@@ -21,11 +21,12 @@
 package ch07_collections;
 
 import static java.lang.System.out;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-class Test0<K> extends ArrayList<K>{
+class Test0<K> extends ArrayList<K> {
 	K get(K k){
 		return super.get(0);
 	}
@@ -33,26 +34,30 @@ class Test0<K> extends ArrayList<K>{
 
 class Test1 extends ArrayList<String>{}
 
+//Waring: The type parameter String is hiding the type String
 class Test2<String> extends ArrayList<String>{}
 
-class Test3 implements Iterator<String>{
+class Test3 implements Iterator<String> {
+	@Override
 	public boolean hasNext() { return false;}
+	@Override
 	public String next() {	return null;}
+	@Override
 	public void remove() {}
 }
 
+//Warning: The type parameter String is hiding the type String
 class Test4<String> implements Iterator<String>{
+	@Override
 	public boolean hasNext() { return false;}
+	@Override
 	public String next() {	return null;}
+	@Override
 	public void remove() {}
 }
 
 public class Ch7_4_Generic {
-	
-	
-
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		//The type Test1 is not generic; it cannot be parameterized with arguments <String>
 		//// Test1<String> t1 = new Test1<String>();
 		     Test2<String> t2 = new Test2<String>();
@@ -84,18 +89,15 @@ public class Ch7_4_Generic {
 		out.println("list: "+ intList);
 		int total = addAll(intList);
 		out.println("total: "+total);
-		
-		
 		 
 	   /*
 	    *  在insertInt中，对intList插入Integer，正常运行。可以理解。
-	    */		 
+	    */
 		out.println("===insertInt()");
 		insertInt(intList);
 		out.println("list: "+ intList);
 		
-		
-		/* 
+		/*
 		 * 在insertStr中，对intList插入String，正常运行！！！！
 		 */
 		/**
@@ -106,24 +108,21 @@ public class Ch7_4_Generic {
 		 * 甚至在运行时会自动插入强制转换
 		 * 
 		 */
-		 
 		out.println("===insertStr()");
 		insertStr(intList);            //1) add错误类型的元素时，没有问题；
 		out.println("list: "+ intList);
 		
-		//此时再addAll()，ClassCastException:java.lang.String cannot be cast to java.lang.Integer
-		//add错误类型的元素时，没有问题；但将这个元素取出并错误使用时 ，则有问题
+		// 此时再addAll()，会抛ClassCastException:java.lang.String cannot be cast to java.lang.Integer
+		// add错误类型的元素时，没有问题；但将这个元素取出并错误使用时 ，则有问题！！！
 		
 		int total2 = addAll(intList);  //2) 但将这个元素取出并错误使用时 ，则有问题
 		out.println("total: "+total2);
 
 	}
 	/**
-	 * 非泛型方法：不修改list
+	 * 非泛型方法： 不修改list
 	 */
-	 
-	static int addAll(List list)
-	{
+	static int addAll(List list) {
 		int total = 0;
 		for(Object o : list){
 			total += (Integer)o;
@@ -131,17 +130,15 @@ public class Ch7_4_Generic {
 		return total;
 	}
 	/**
-	 * 非泛型方法：修改list
+	 * 非泛型方法： 修改list，插入int
 	 */
-	static void insertInt(List list)
-	{
+	static void insertInt(List list) {
 		list.add(new Integer(42));
 	}
 	/**
-	 * 非泛型方法：修改list
+	 * 非泛型方法： 修改list，插入String
 	 */
-	static void insertStr(List list)
-	{
+	static void insertStr(List list){
 		list.add(new String("s"));
 	}
 

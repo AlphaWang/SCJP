@@ -20,6 +20,8 @@
  */
 package ch11_exception;
 
+import java.util.Date;
+
 /**
  * 	捕获异常后，如果重新抛出，则该异常的堆栈信息并未改变。即printStackTrace结果不变
  * 
@@ -53,6 +55,33 @@ public class Ch11_1_NewException {
 			System.out.println("h()重新抛出 e.fillInStackTrace()");
 			throw (Exception) e.fillInStackTrace(); //重新构造堆栈；不会追踪到f()
 		}
+	}
+	
+	public static Date getDate() {
+		Date date = null;
+		try {
+			date = new Date();
+			throw new Exception();
+//			return date;			
+		} catch (Exception e) {
+			return date;
+		} finally {
+			date.setYear(99); //会改掉返回值！
+		}		
+	}
+	
+	public static int getInt() {
+		int i = 0;
+		try {
+			i = 1;
+			throw new Exception();
+//			return date;			
+		} catch (Exception e) {
+			i = 2;
+			return i;
+		} finally {
+			i = 3; //不会改掉返回值！
+		}		
 	}
 	
 	public static void main(String[] args){
@@ -119,6 +148,10 @@ public class Ch11_1_NewException {
 			at ch11_exception.Ch11_1_NewException.h(Ch11_1_NewException.java:54)
 			at ch11_exception.Ch11_1_NewException.main(Ch11_1_NewException.java:83)
 		*/	
+		
+		
+		System.out.println(getDate());
+		System.out.println(getInt());
 	}
 }
 

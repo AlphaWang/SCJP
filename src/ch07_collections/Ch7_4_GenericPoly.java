@@ -28,29 +28,28 @@ import javax.swing.JMenu;
 
 public class Ch7_4_GenericPoly {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		/**
 		 * Generic 与 Polymorphism
 		 * 
 		 * 多态只适用于基础类型，不适用于泛型类型！！
 		 * 
 		 */
-		//编译错误：Type mismatch: cannot convert from ArrayList<JButton> to List<Object>
-		//// List<Object> list2 = new ArrayList<JButton>(); //多态不适用于泛型类型
-		     List<Object> list1 = new ArrayList<Object>();  //多态适用于基础类型
-		  
+		// 编译错误：Type mismatch: cannot convert from ArrayList<JButton> to List<Object>
+		//// List<Object> list2 = new ArrayList<JButton>(); // 多态不适用于泛型类型
+		     List<Object> list1 = new ArrayList<Object>();  // 多态适用于基础类型
+		     
 		  JButton b = new JButton();
 		  list1.add(b);
 		  System.out.println(list1);
+		  
 		  /*
 		   * 泛型 使得集合与数组一样有了类型安全，但是泛型中多态的工作方式与数组中不同
 		   */
-		  Object[] o1 = new JButton[3];		
+		  Object[] o1 = new JButton[3];
 		  Object   o2 = new JButton();
-		  //运行时：java.lang.ArrayStoreException:
-		  changeElem(o1);    
-		  
+		  //修改数组元素 为不兼容类型，运行时：java.lang.ArrayStoreException:
+		  changeElem(o1);
 		  
 		  
 		  

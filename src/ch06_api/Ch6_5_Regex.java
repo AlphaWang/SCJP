@@ -20,10 +20,11 @@
  */
 package ch06_api;
 
+import static java.lang.System.out;
+
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import static java.lang.System.out;
 public class Ch6_5_Regex {
 
 	/**
@@ -38,28 +39,57 @@ public class Ch6_5_Regex {
 		Pattern pattern = Pattern.compile(expres);      //Pattern.compile(String):将给定的正则表达式编译到模式中
 		Matcher matcher = pattern.matcher(source); 		//pattern.matcher(String):创建匹配给定输入与此模式的匹配器
 		
-		//Matcher.groupCount(): 返回此匹配器模式中的捕获组数。 
+		//Matcher.groupCount(): 返回此匹配器模式中的捕获组数。
 		out.println("matcher.groupCount() = "+matcher.groupCount());
-		//Matcher.find():尝试查找与该模式匹配的输入序列的下一个子序列		
-		while(matcher.find())                     
+		
+		//Matcher.find():尝试查找与该模式匹配的输入序列的下一个子序列
+		while(matcher.find())
 		{
 			//Matcher.start():返回以前匹配的初始索引
 			//Matcher.group():返回由以前匹配操作所匹配的输入子序列
-			out.println(matcher.start() + "~"+matcher.end()+"\t: >" + matcher.group()+"<");    
+			out.println(matcher.start() + "~"+matcher.end()+"\t: >" + matcher.group()+"<");
+			
+			for (int i=0; i <= matcher.groupCount(); i++) {
+				out.println(matcher.group(i));
+			}
 		}
 		out.println();
 	}
 	
 
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		String source;
 		String expres;
+		
+		expres = "^\\w{3}$";
+		source = "te9";
+		match(expres, source);
+		
+		expres = "(^(([a-zA-Z]:\\\\)|(\\\\\\\\))[^/:\\*\\?\"<>\\|]*$)"
+			   + "|(^(/)?[^\\\\:\\*\\?\"<>\\|]*$)";
+		source = "D:\\dev\\test.dll";
+		match(expres, source);
+		
+		source = "\\\\10.1036.2.1\\share";
+		match(expres, source);
+		
+		source = "/root/dev";
+		match(expres, source);
+		
+		expres = "/\\*\\*\\s*" + "@description" + "\\s+(.*)\\*/";
+		source = "/// Transformer functions\n/** @protected */\n/** @description Qdoc script version 1 */\n/** @inbound */";
+		match(expres, source);
+		
+		expres = "(\\.jpg$)|(\\.jpeg$)|(\\.tiff$)|(\\.png$)";
+		source = "test.jpg";
+		match(expres, source);
+
 		/**
 		 ** 1. 正则表达式>>>查找
 		 **    正则表达式可以看做是一段极短的程序或脚本
-		 **    
+		 **
 		 */
 		out.println("======1. 查找");
 		/**
@@ -84,17 +114,17 @@ public class Ch6_5_Regex {
 		 * 		source		:a12c3e456f
 		 * 		index		:0123456789
 		 *      expression	:\d
-		 *   
+		 * 
 		     	\d	:数字
 		     	\s	:空格
 		     	\w	:字符(字母、数字、_)
-		     	[abc] 		a、b 或 c（简单类） 
-				[^abc] 		任何字符，除了 a、b 或 c（否定） 
-				[a-zA-Z] 	a 到 z 或 A 到 Z，两头的字母包括在内（范围） 
-				[a-d[m-p]] 	a 到 d 或 m 到 p：[a-dm-p]（并集） 
-				[a-z&&[def]] d、e 或 f（交集） 
-				[a-z&&[^bc]] a 到 z，除了 b 和 c：[ad-z]（减去） 
-				[a-z&&[^m-p]] a 到 z，而非 m 到 p：[a-lq-z]（减去） 
+		     	[abc] 		a、b 或 c（简单类）
+				[^abc] 		任何字符，除了 a、b 或 c（否定）
+				[a-zA-Z] 	a 到 z 或 A 到 Z，两头的字母包括在内（范围）
+				[a-d[m-p]] 	a 到 d 或 m 到 p：[a-dm-p]（并集）
+				[a-z&&[def]] d、e 或 f（交集）
+				[a-z&&[^bc]] a 到 z，除了 b 和 c：[ad-z]（减去）
+				[a-z&&[^m-p]] a 到 z，而非 m 到 p：[a-lq-z]（减去）
 
 		 */
 		expres = "\\d";
@@ -107,7 +137,7 @@ public class Ch6_5_Regex {
 		4~5	: >3<
 		6~7	: >4<
 		7~8	: >5<
-		8~9	: >6<		
+		8~9	: >6<
 		*/
 		//TODO "非数字"，如何表示？
 		System.out.println("a12c3e456f".replaceAll("(\\d)", ""));
@@ -243,7 +273,7 @@ public class Ch6_5_Regex {
 		
 		/**
 		 ** 2. 分解 tokenizing
-		 ** 
+		 **
 		 **	标记：token, 实际数据部分
 		 ** 定界符：delimiter, 可以是能作为正则表达式的任何内容，例如\d
 		 */

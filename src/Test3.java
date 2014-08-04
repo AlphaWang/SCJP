@@ -6,6 +6,8 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.google.common.base.Joiner;
+
 
 
 public class Test3 {
@@ -18,8 +20,8 @@ public class Test3 {
 		}
 	}
 	
-	public static void main(String[] args){		
-		
+	public static void main(String[] args){
+		Comparators c;
 		
 		String s1 = "\r";
 		String s2 = s1.trim();
@@ -66,13 +68,24 @@ public class Test3 {
 		
 		
 		String seperator = "\n";
-		StringBuilder sb = new StringBuilder();		
+		StringBuilder sb = new StringBuilder();
 		sb.append("TESTTEST").append(seperator).append("222").append(seperator);
-		System.out.print(sb); 
+		System.out.print(sb);
 		System.out.print("|");
 		System.out.print(sb.delete(sb.length() - seperator.length(), sb.length()));
 		System.out.print("|");
 		
+    	System.err.println(String.format("%s is %s ! %s", "A", 2, "C"));
     	
+    	
+    	Joiner joiner = Joiner.on(";").skipNulls();
+    	String joined = joiner.join("111111", null, "", "4444444444");
+		System.out.println( joined );
+		
+		System.out.println("123456789".length());
+		System.out.println("123456789".substring(0,9));
+		
+       
+
 	}
 }

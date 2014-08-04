@@ -31,7 +31,7 @@ public class Ch9_2_ThreadState
 	 *               [wait/block/sleep]
 	 * 
 	 */
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		MyRunnable2 myRunnable = new MyRunnable2();
 		Thread thread1 = new Thread(myRunnable,"thread 1");
@@ -90,7 +90,7 @@ public class Ch9_2_ThreadState
 		/**
 		 * 4. A.join() 非静态
 		 * 
-		 * 让当前线程B加入到另一个线程A的尾部:
+		 * 让当前线程B加入到另一个线程A的尾部:等待A结束
 		 * 必须在A death之后，当前线程B 才能runnable
 		 */
 		try {
