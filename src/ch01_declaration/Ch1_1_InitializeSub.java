@@ -40,7 +40,7 @@ public class Ch1_1_InitializeSub extends Ch1_1_Initialize{
 		System.out.println("子类构造方法()");
 	}
 	Ch1_1_InitializeSub(String name){
-		// 此行被自动添加super()
+		// 此行自动添加super()
 		System.out.println("子类构造方法(String name)");
 		/*
 		 * 不可访问父类private变量
