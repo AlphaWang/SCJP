@@ -40,7 +40,7 @@ public class Ch1_2_Identifier {
 	/**
 	 * 汉字也是Unicode字符！
 	 */
-	int \u0420 = 420;
+	int 变量 = 420;
 	int 数字2 = 2;
 	//// int 数字3； = 3;
 	//// int 数字4—— = 4;
@@ -48,7 +48,7 @@ public class Ch1_2_Identifier {
 	public static void main (String[] args)
 	{
 		Ch1_2_Identifier obj = new Ch1_2_Identifier();
-		out.println(obj.\u0420);  //420
+		out.println(obj.变量);  //420
 		out.println(obj.数字2);   //2
 		obj.打印();
 	}
